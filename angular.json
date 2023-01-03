@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-jest-spectator-template": {
+    "angular-template-jest-spectator-playwright": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-jest-spectator-template",
+            "outputPath": "dist/angular-template-jest-spectator-playwright",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-jest-spectator-template:build:production"
+              "browserTarget": "angular-template-jest-spectator-playwright:build:production"
             },
             "development": {
-              "browserTarget": "angular-jest-spectator-template:build:development"
+              "browserTarget": "angular-template-jest-spectator-playwright:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-jest-spectator-template:build"
+            "browserTarget": "angular-template-jest-spectator-playwright:build"
           }
         },
         "test": {
