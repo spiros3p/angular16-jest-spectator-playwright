@@ -1,12 +1,15 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "defaultCollection": "@ngneat/spectator"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-template-jest-spectator-playwright": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": {
+        "@ngneat/spectator:spectator-component": {
           "style": "scss"
         }
       },
