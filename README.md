@@ -1,6 +1,12 @@
 # angularTemplateJestSpectatorPlaywright
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6
+
+## Included packages
+- Jest
+- ngneat/Spectator
+- playwright e2e
+- ng-bootstrap
 
 ## Development server
 
